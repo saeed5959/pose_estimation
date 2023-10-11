@@ -36,5 +36,5 @@ ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(object_points, image_points, 
 print("Camera matrix : \n")
 print(mtx , "\n")
 print(f"focal length : {mtx[0,0]}, \n")
-print("dist : \n")
+print("distortion : \n")
 print(dist)

@@ -7,10 +7,13 @@
     2-calculating descriptor with ORB/BRIEF algorithm
     3-matching keypoints with FLANN algorithm
 
-### image
+### left image
 <img src="/feature_matching/python_code/1.png" width="250" height="200" border="10" title="model">
+
+### right image
 <img src="/feature_matching/python_code/2.png" width="250" height="200" border="10" title="model">
-<br/>
+
+### matching
 <img src="/feature_matching/python_code/out.png" width="500" height="200" border="10" title="model">
 
 
@@ -22,5 +25,8 @@
     4-calculate distortion parameters : (k1, k2, p1, p2, k3)
 
 
-### image
+### chessboard
 <img src="/camera_calibration/data/image_2.jpg" width="350" height="200" border="10" title="model">
+
+### calibration result
+<img src="/camera_calibration/data/result.png" width="350" height="200" border="10" title="model">
