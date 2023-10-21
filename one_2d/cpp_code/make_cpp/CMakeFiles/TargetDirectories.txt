@@ -1,0 +1,3 @@
+/home/saeed/software/python/pose_estimation/one_2d/cpp_code/make_cpp/CMakeFiles/run.dir
+/home/saeed/software/python/pose_estimation/one_2d/cpp_code/make_cpp/CMakeFiles/edit_cache.dir
+/home/saeed/software/python/pose_estimation/one_2d/cpp_code/make_cpp/CMakeFiles/rebuild_cache.dir
