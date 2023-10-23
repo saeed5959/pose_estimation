@@ -14,7 +14,7 @@ def mask_apply(pts, image):
 
 # read images
 img_1 = cv2.imread("./1.png", 0)
-img_2 = cv2.imread("./2_5.png", 0)
+img_2 = cv2.imread("./2.png", 0)
 
 sift = cv2.SIFT_create()
 
@@ -40,7 +40,7 @@ bf = cv2.BFMatcher()
 h,w = img_1.shape[0], img_1.shape[1]
 pts = np.float32([ [0,0],[0,h-1],[w-1,h-1],[w-1,0] ]).reshape(-1,1,2)
 
-img_object = img_2
+img_object = cv2.imread("./2.png", 1)
 i = 0
 while(True):
     keypoint_2, descriptor_2 = sift.detectAndCompute(img_2, None)
